@@ -19,7 +19,7 @@ const server = http.createServer((req, res) => {
       res.setHeader('Content-Type', 'text/html');
       res.write('<html>');
       res.write('<body>');
-      res.write('<h1>About Page</h1>');
+      res.write('<h2>About Page</h2>');
       res.write('</body>');
       res.write('</html>');
     } else {
